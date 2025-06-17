@@ -32,3 +32,7 @@ Also, download the Extension Pack as it will be needed later.
 The next step after completing Ubuntu setup is installing ROS2.
 For this project ROS2 Humble was used.
 Full guide: https://docs.ros.org/en/humble/index.html
+
+# Code Editor
+Having a code editor is important for writing and using open-source projects and libraries.
+Visual Studio Code is recomended. 
