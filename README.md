@@ -56,7 +56,7 @@ Install BlueRobotics Keller LD Library.
 # Controller
 Since the vechile will be moving in all directions, it is recommended to use a joystick controller.
 In this case we are using Xbox controller. This repo is used https://github.com/ros-teleop/teleop_twist_joy.
-It is Important to configure the controller like this format in the config file:
+*It is Important to configure the controller like this format in the config file:
 
     teleop_twist_joy_node:
       ros__parameters:
