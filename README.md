@@ -36,3 +36,19 @@ Full guide: https://docs.ros.org/en/humble/index.html
 # Code Editor
 Having a code editor is important for writing and using open-source projects and libraries.
 Visual Studio Code is recomended. 
+
+# Arduino IDE
+We will have a serial communication via USB between an arduino board and the the linux machine in order to get the sensors' readings.
+Download link: https://www.arduino.cc/en/software/
+Sensors List:
+1- IMU (MPU 6050)
+2- Pressure Senser """""""
+
+# IMU
+
+
+
+# Pressure Sensor
+
+
+# Controller
