@@ -41,10 +41,12 @@ Visual Studio Code is recomended.
 We will have a serial communication via USB between an arduino board and the the linux machine in order to get the sensors' readings.
 Download link: https://www.arduino.cc/en/software/
 Sensors List:
-1- IMU (MPU 6050)
+1- IMU (MPU6050)
 2- Pressure Senser """""""
 
 # IMU
+For MPU6050 sensor, you can see this repository: https://github.com/adafruit/Adafruit_MPU6050
+Then go to Adafruit_MPU6050/examples/basic_readings/basic_readings.ino in Arduino IDE to test the MPU6050 sensor. 
 
 
 
