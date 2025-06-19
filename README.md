@@ -80,4 +80,6 @@ In this case we are using Xbox controller. This repo is used https://github.com/
         enable_button: 2  # Left trigger button
         enable_turbo_button: 5  # Right trigger button
 
-
+# Video Tutorial
+ROS2 tutorials: https://www.youtube.com/watch?v=0aPbWsyENA8&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy
+Joystick controller: https://www.youtube.com/watch?v=_MVA1fkzRKM&list=PL1YH3iMfizDLgcrTL1rj4NxXYKnPLLkby&index=18
