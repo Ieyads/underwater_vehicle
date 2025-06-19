@@ -51,7 +51,8 @@ Install Adafruit_MPU6050 library, then go to Adafruit_MPU6050/examples/basic_rea
 
 
 # Pressure Sensor
-Install BlueRobotics Keller LD Library.
+Install BlueRobotics Keller LD Library. Product used: https://bluerobotics.com/store/sensors-cameras/sensors/bar100-sensor-r2-rp/.
+Example code: https://github.com/bluerobotics/BlueRobotics_KellerLD_Library/blob/master/examples/KellerLD_Example/KellerLD_Example.ino.
 
 # Controller
 Since the vechile will be moving in all directions, it is recommended to use a joystick controller.
