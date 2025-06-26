@@ -42,11 +42,14 @@ We will have a serial communication via USB between an arduino board and the the
 Download link: https://www.arduino.cc/en/software/
 Sensors List:
 1- IMU (MPU6050)
-2- Pressure Senser """""""
+2- Pressure Senser (Bar100)
 
 # IMU
 For MPU6050 sensor, you can see this repository: https://github.com/adafruit/Adafruit_MPU6050.
 Install Adafruit_MPU6050 library, then go to Adafruit_MPU6050/examples/basic_readings/basic_readings.ino in Arduino IDE to test the MPU6050 sensor. 
+
+# Rviz
+In order to view the IMU readings in 3d, you can use Rviz. Download link: https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html
 
 
 
@@ -80,6 +83,10 @@ In this case we are using Xbox controller. This repo is used https://github.com/
     
         enable_button: 2  # Left trigger button
         enable_turbo_button: 5  # Right trigger button
+
+To get the readings:
+
+    ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'
 
 # Video Tutorial
 ROS2 tutorials: https://www.youtube.com/watch?v=0aPbWsyENA8&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy
