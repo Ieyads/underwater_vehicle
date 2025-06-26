@@ -48,9 +48,15 @@ Sensors List:
 For MPU6050 sensor, you can see this repository: https://github.com/adafruit/Adafruit_MPU6050.
 Install Adafruit_MPU6050 library, then go to Adafruit_MPU6050/examples/basic_readings/basic_readings.ino in Arduino IDE to test the MPU6050 sensor. 
 
+#  Madgwick Filter
+To turn the angular velocities and accelerations from the sensor to a 3d represntation, We need to use Madgwick filter.
+Download link: https://github.com/CCNYRoboticsLab/imu_tools
+
+    ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args --param use_mag:=false
+
+
 # Rviz
 In order to view the IMU readings in 3d, you can use Rviz. Download link: https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html
-
 
 
 # Pressure Sensor
