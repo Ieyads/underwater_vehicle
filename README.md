@@ -51,9 +51,13 @@ Download link: [Arduino IDE](https://www.arduino.cc/en/software/ )
 # IMU
 
 For MPU6050 sensor, you can see this repository:  
-[Adafruit MPU6050 GitHub](https://github.com/adafruit/Adafruit_MPU6050 )  
+[Adafruit MPU6050 GitHub](https://github.com/adafruit/Adafruit_MPU6050 ) 
 
 Install `Adafruit_MPU6050` library, then go to `Adafruit_MPU6050/examples/basic_readings/basic_readings.ino` in Arduino IDE to test the MPU6050 sensor.
+
+![Sensor readings](media/IMU_readings.png)
+
+![rqt graph of the IMU](media/IMU_graph.png)
 
 # Madgwick Filter
 
