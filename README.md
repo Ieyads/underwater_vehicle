@@ -47,7 +47,7 @@ Download link: [Arduino IDE](https://www.arduino.cc/en/software/ )
 ### Sensors List:
 1. IMU (MPU6050)  
 2. Pressure Sensor (Bar100)
-
+ 
 # IMU
 
 For MPU6050 sensor, you can see this repository:  
@@ -84,6 +84,8 @@ Product used: [Bar100 Sensor - Blue Robotics](https://bluerobotics.com/store/sen
 Example code: [KellerLD_Example.ino](https://github.com/bluerobotics/BlueRobotics_KellerLD_Library/blob/master/examples/KellerLD_Example/KellerLD_Example.ino )
 
 # Controller
+[![Watch the video](https://img.youtube.com/vi/3aG9_xgjOY4/hqdefault.jpg )](https://www.youtube.com/watch?v=3aG9_xgjOY4)
+Controller video
 
 Since the vehicle will be moving in all directions, it is recommended to use a joystick controller.  
 In this case we are using Xbox controller. This repo is used:  
