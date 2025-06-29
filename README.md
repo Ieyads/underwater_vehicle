@@ -68,10 +68,17 @@ Download link: [imu_tools GitHub](https://github.com/CCNYRoboticsLab/imu_tools )
 ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args --param use_mag:=false
 ```
 
-# Rviz
+# Rviz2
+
+<video width="640" height="360" controls>
+  <source src="media/Rviz2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 In order to view the IMU readings in 3D, you can use Rviz.  
 Download link: [RViz User Guide - ROS2 Humble](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html )
+
+
 
 # Pressure Sensor
 
