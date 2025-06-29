@@ -70,7 +70,8 @@ ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args --param use_mag
 
 # Rviz2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_TqFYcdwoNE?si=gwT1eCOOqlePcQcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Rviz2 video:
+[![Watch the video]( https://img.youtube.com/vi/_TqFYcdwoNE/hqdefault.jpg )](https://www.youtube.com/watch?v=_TqFYcdwoNE)
 
 In order to view the IMU readings in 3D, you can use Rviz.  
 Download link: [RViz User Guide - ROS2 Humble](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html )
@@ -84,8 +85,9 @@ Product used: [Bar100 Sensor - Blue Robotics](https://bluerobotics.com/store/sen
 Example code: [KellerLD_Example.ino](https://github.com/bluerobotics/BlueRobotics_KellerLD_Library/blob/master/examples/KellerLD_Example/KellerLD_Example.ino )
 
 # Controller
+
+### Controller video:
 [![Watch the video](https://img.youtube.com/vi/3aG9_xgjOY4/hqdefault.jpg )](https://www.youtube.com/watch?v=3aG9_xgjOY4)
-Controller video
 
 Since the vehicle will be moving in all directions, it is recommended to use a joystick controller.  
 In this case we are using Xbox controller. This repo is used:  
