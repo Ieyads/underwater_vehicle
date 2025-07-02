@@ -90,7 +90,7 @@ Example code: [KellerLD_Example.ino](https://github.com/bluerobotics/BlueRobotic
 [![Watch the video](https://img.youtube.com/vi/3aG9_xgjOY4/hqdefault.jpg )](https://www.youtube.com/watch?v=3aG9_xgjOY4)
 
 Since the vehicle will be moving in all directions, it is recommended to use a joystick controller.  
-In this case we are using Xbox controller. This repo is used:  
+In this case we are using Xbox controller. This repository is used:  
 [teleop_twist_joy GitHub](https://github.com/ros-teleop/teleop_twist_joy )
 
 *It is important to configure the controller like this format in the config file:*
